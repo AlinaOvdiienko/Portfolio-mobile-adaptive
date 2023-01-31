@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url('./fonts/LibreFranklin-VariableFont_wght.ttf');
+}
+    body {
+font-family: LibreFranklin;
+margin: 0%;
+padding: 0%;
+    }
+
+    header {
+    width: 100%;
+    background-image: url('./img/Background\ \(1\).svg');
+    height: 768px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 93px;
+}
+.wight {
+    width: 85%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between; 
+}
+.nav_a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+}
+.h1_header {
+    margin-left: 7%;
+    margin-top: 145px;
+}
+.head_h2 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+   color: white;
+}
+.head_h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+    margin-top: 26px;
+}
+.head_h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+}
+.head_h5m {
+    padding-top: 106px;
+}
+.content_h5 {
+    margin-top: 93px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.p {
+ margin-top: 76px;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 30px;
+ color: 
+ #333333;
+ margin-bottom: 115px;
+}
+.col-10 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.marg {
+    margin-top: 61px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding-bottom: 86px;
+}
+.back_color {
+    background-color: #FFFAF2;
+   
+}
+.pad {
+    padding-bottom: 177px;
+}
+.gap_m {
+    padding-bottom: 55px;
+}
+.wight2 {
+    width: 74%;
+}
+.forfoto_h5 {
+    margin-top: 95px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 86px;
+}
+.forfoto_h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 48px;
+}
+.wight_p {
+    width: 349px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.m-wight {
+    min-width: 350px;
+}
+.forfoto {
+    width: 650px;
+    height: 403px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.forfoto_1 {
+    width: 350px;
+    height: 144px;
+    min-width: 169px;
+    min-height: 69px;
+}
+.forfoto_2 {
+    width: 255px;
+    height: 233px;
+    min-width: 123px;
+    min-height: 113px;
+}
+.forfoto_3 {
+    width: 349px;
+    height: 233px;
+    margin-top: -90px
+}
+.forfoto_4 {
+    width: 255px;
+    height: 144px;
+}
+
+.logo_portfolio_h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.displey_burger {
+    display: none;
+}
+.footer_m {
+    margin-top: 145px;
+}
+.text_decor {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 41px;
+color: #333333;
+}
+.list_style {
+    list-style: none;
+}
+.footer_h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+padding-top: 93px;
+}
+.list_margin {
+    margin-top: 51px;
+    
+}
+.footer_none {
+    display: none;
+}
+
+@media (max-width:576px) {
+    .nav {
+        display: none;
+    }
+    .displey_burger {
+        display: flex;
+    }
+    .wraper_burger {
+        display: flex;
+    }
+    .head_h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .head_h4 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .head_h5m {
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .content_h5 {
+        margin: auto;
+        margin-top: 25px;
+    }
+    .marg {
+        margin: auto;
+    }
+    .wrap {
+        flex-direction: column;
+    }
+    .gap_m {
+        padding-bottom: 35px;
+        margin-top: 35px;
+    }
+    .forfoto_h5 {
+        text-align: center;
+    margin-top: 10px;
+    }
+    .forfoto_h6 {
+        text-align: center;
+    }
+    .forfoto {
+        width: 358px;
+        height: 196px;
+        gap: 12px;
+    }
+    .forfoto_1 {
+        width: 169px;
+        height: 69px;
+    }
+    .forfoto_2 {
+        width: 123px;
+        height: 113px;
+    }
+    .forfoto_3 {
+        width: 169px;
+        height: 113px;
+        margin-top: -45px;
+    }
+    .forfoto_4 {
+        width: 123px;
+        height: 69px;
+    }
+    .footer_h4 {
+        margin: auto;
+    }
+    .footer_wrap {
+        display: flex;
+       flex-grow: inherit;
+    }
+    .footer_none2 {
+        display: none;
+    }
+    .footer_none {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
